@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+
+}
+
+body {
+    background-color: #1C1B21;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.main-container{
+    overflow: hidden;
+}
+
+.section-title {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.section-text {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 9rem;
+    line-height: 9rem;
+    color: transparent;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px #FFFFFF;
+    text-stroke: 1px #FFFFFF;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-menu {
+    background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 29px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 123456;
+}
+
+.logo {
+    margin-right: 65px;
+}
+
+.logo-img {
+    width: 223px;
+}
+
+.nav-menu-item {
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 56px;
+}
+
+.nav-menu-item:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background: url("img/header.png") center/cover no-repeat;
+    width: 100%;
+    box-shadow: inset 0 0 20px 20px #2F2B2B;
+    padding: 322px 0 260px 0;
+}
+
+.header h2 {
+    margin-bottom: 10px;
+}
+
+.header-audio {
+    width: 70%;
+}
+
+.header-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    position: absolute;
+    bottom: -10%;
+    left: 15%;
+}
+
+.card1 {
+    background: url("img/2nd-section-img1.png") center/cover no-repeat;
+}
+
+.card2 {
+    background: url("img/2nd-section-img2.png") center/cover no-repeat;
+}
+
+.card3 {
+    background: url("img/2nd-section-img3.png") center/cover no-repeat;
+}
+
+.header-card {
+    border-radius: 20px 0px;
+    width: 30%;
+    display: flex;
+    margin-right: 30px;
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+.header-text {
+    width: 100%;
+    height: 90px;
+    background: #7a66cc9a;
+    border-radius: 20px 0px;
+    color: rgb(255, 255, 255);
+    padding: 21px 20px;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    transition: 1s;
+}
+
+.header-card:hover .header-text {
+    bottom: 0;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    background: #7A66CC;
+    border-radius: 10px 0px;
+}
+
+.Bright-Lights {
+    padding-top: 380px;
+    padding-bottom: 79px;
+    width: 100%;
+}
+
+.bl-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bl-left {
+    width: 40%;
+}
+
+.bl-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bl-left p,
+details {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 60px 0;
+}
+
+summary {
+    margin-bottom: 20px;
+}
+
+.bl-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px; 
+}
+
+.bl-wraper-img {
+    width: 64px;
+    height: 31px;
+}
+
+.bl-wraper-title {
+    margin: 0;
+    margin-left: 30px;
+}
+
+.wraper-card {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    height: 100px;
+}
+
+.square {
+    margin-right: 20px;
+}
+
+.bl-text {
+    font-weight: bolder;
+}
+
+.img2 {
+    opacity: 0.2;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 344;
+}
+
+.img1,
+.img2 {
+    width: 90%;
+    align-self: flex-end;
+}
+
+.img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 345;
+}
+
+.music {
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 180px;
+}
+
+.music-container {
+    position: relative;
+}
+
+.music-content {
+    padding: 50px 80px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 0px;
+}
+
+.music-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+hr {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.music-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7A66CC;
+}
+
+.music-img {
+    position: absolute;
+    top: -30%;
+    right: 80px;
+    width: 370px;
+    height: 483px;
+}
+
+.bg {
+    position: absolute;
+    top: -10%;
+    left: 5%;
+
+}
+
+.bgbgbg {
+    font-size: 300px;
+    color: white;
+    opacity: 0.2;
+}
+
+.tracks {
+    width: 100%;
+}
+
+.tracks-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracks-left {
+    width: 50%;
+}
+
+.tracks-right {
+    width: 50%;
+}
+
+.track-number {
+    margin-right: 20px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.tracks-list {
+    list-style: none;
+}
+
+.track-number1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7A66CC;
+    margin-bottom: 20px;
+}
+
+.track {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.follow-title {
+    display: inline-block;
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+.follow-logo {
+    vertical-align: top;
+}
+
+.concert {
+    width: 100%;
+    padding: 180px 0;
+}
+
+.concert-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.concert-left,
+.concert-right {
+    width: 20%;
+}
+
+.concert-middle {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.concert-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.concert-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.middle-img {
+    width: 45%;
+    margin-bottom: 10%;
+}
+
+.middle-wraper {
+    position: relative;
+    width: 100%;
+}
+
+.middle-img2 {
+    width: 100%;
+}
+
+.middle-title {
+    color: #7A66CC;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+}
+
+.card-place {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.card-info {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+
+.card-date {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-left: 35px;
+    margin-right: 43px;
+    padding-bottom: 20px;
+}
+
+.card-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #7A66CC;
+    border-radius: 30px 0px;
+    padding: 18px 62px 18px 52px;
+}
+
+.clubs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.club-card {
+    background: #2F2B2B;
+    border-radius: 30px 0px;
+    width: 30%;
+}
+
+.club-card-img {
+    width: 100%;
+}
+
+.club-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    padding-top: 180px;
+    padding-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-middle {
+    position: relative;
+    width: 30%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.email{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer-bottom {
+    margin-bottom: 100px;
+}
+
+.footer-social {
+    margin-right: 30px;
+}
+
+
+@media(max-width:800px){
+    h1{
+        font-size: 3rem;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .nav-menu{
+        position: static;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .header-cards{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        position: static;
+        margin-top: 100px;
+    }
+    .header-card{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .bl-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .bl-left{
+        width: 100%;
+        margin: auto;
+    }
+    .bl-right{
+        width: 100%;
+        margin: auto;
+    }
+    .img1{
+        position: static;
+    }
+    .img2{
+        display: none;
+    }
+    .music-img{
+        position: static;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .music-text{
+        width: 100%;
+    }
+    .music-content{
+        text-align: center;
+    }
+    hr{
+        width: 100%;
+    }
+    .tracks-content{
+        flex-direction: column;
+    }
+    .tracks-left{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .tracks-right{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .bl-wraper{
+        flex-direction: column;
+    }
+    .audio2{
+        margin-bottom: 20px;
+    }
+    .concert-content{
+        flex-direction: column;
+    }
+    .concert-left, .concert-middle, .concert-right{
+        width: 100%;
+    }
+    .clubs-content{
+        flex-direction: column;
+    }
+    .club-card{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer-middle{
+        width: 100%;
+        text-align: center;
+    }
+    .name{
+        position: static;
+    }
+    .email{
+        position: static;
+    }
+}
